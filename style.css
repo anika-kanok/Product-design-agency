@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+
+}
+
+/* header section start here */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    & .logo{
+        & img{
+            width: 100%;
+            max-width: 115px;
+            height: auto;
+            
+        }
+    }
+
+    & .menu{
+        & ul {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           gap:1rem;
+           & li{
+            list-style: none;
+
+            & .active{
+                color: #5956E8;
+            }
+            & a{
+                text-decoration: none;
+                color:#181818;
+            }
+           }
+        }
+    }
+
+    & button{
+        padding:0.70rem 1rem;
+        font-size: 1.125rem;
+        border: none;
+        background-color: #5956E8;
+        color:white;
+        border-radius: 0.625rem;
+        font-weight: 500;
+    }
+}
+/* header section end here */
+
+
+/* banner-section start here */
+.banner{
+    background-color: #5956E8;
+    max-width: 1920px;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    & .banner-section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+    & .banner-text{
+        max-width: 600px;
+        width: 100%;
+        height: auto;
+       
+       & h1{
+         font-weight: 700;
+         color: #fff;
+         font-size: 4.625rem;
+         line-height: 5rem;
+       }
+
+       & p{
+         font-size: 1rem;
+         font-weight: 500;
+         color: #fff;
+         line-height: 1.687rem;
+         padding: 1.90rem 0;
+       }
+
+       & button{
+        padding:0.70rem 1rem;
+        font-size: 1.125rem;
+        border: none;
+        background-color: #f3f3f5;
+        color:#5956E8;
+        border-radius: 0.625rem;
+        font-weight: 500;
+       }
+    }
+
+    & .banner-imge{
+        & img{
+           max-width: 480px;
+        }
+    }
+}
+
+
+/* banner-section end here */
+
+
+/* Our service section start here */
+& .service{
+    text-align: center;
+    margin: 4rem;
+
+    & h1{
+      font-size: 2.5rem;
+      font-weight: 700;
+
+    }
+
+    & div{
+      max-width: 542px;
+      width: 100%;
+      min-height: 64px;
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.675rem;
+      color:gray;  
+      margin: 0 auto;
+      margin-top: 1rem;
+    }
+}
+
+ .our-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.80rem;
+    & .box{
+        max-width: 370px;
+        width: 100%;
+        min-height: 385px;
+        border: 1px solid rgba(128, 128, 128, 0.532);
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 0.625rem;
+        padding: 4rem 2rem;
+        line-height: 1.6;
+        & .box-icon{
+            max-width: 71px;
+            width: 100%;
+            min-height: 71px;
+            border: 1px solid rgb(89, 86, 232);
+            border-radius: 0.625rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & i{
+                font-size: 2.3125rem;
+            }
+        }
+
+        & h1{
+            margin-top: 1rem;
+            font-weight: 700;
+        }
+
+        & p{
+            font-size: 1rem;
+            font-weight: 500;
+            line-height: 1.6875rem;
+            color:grey;
+        }
+        /* & .box-text{
+            max-width: 274px;
+            width: 100%;
+            height: auto;
+            padding: 3rem;
+
+        } */
+    }
+
+}
+
+/* Our service section end here */
+
+
+/* work-section start here */
+.work-image{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1200px;
+   gap:2rem;
+    & .image{
+        max-width:270px ;
+        width: 100%;
+        height: auto;
+    }
+}
+/* work-section end here */
