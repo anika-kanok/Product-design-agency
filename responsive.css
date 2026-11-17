@@ -1,0 +1,170 @@
+@media (max-width: 576px){
+    .header{
+        & .logo{
+            max-width: 90px;
+        }
+
+        & .menu{
+           display:none;
+        }
+    }
+
+    & button{ 
+        max-width: 40%;
+        font-size: 0.75rem;
+    }
+
+    /* banner-section start here */
+     .banner{
+         & .banner-section{
+             display: flex;
+             flex-direction: column;
+             gap:2rem;
+             & .banner-text{
+                 padding: 0 0.10rem;
+                 & h1{
+                     font-size: 3rem;
+                     line-height: 1.20;
+                 }
+             }
+         
+             & .banner-imge{
+                & img{
+                    max-width: 480px;
+                    height: auto;
+                    display: block;
+                }
+             }
+         }
+         
+    }
+
+    /* service section start here */
+
+    .service{
+        margin: 2rem;
+        & h1{
+            font-size: 2.20rem;
+        }
+        & div{
+            font-size: 0.90rem;
+            
+        }
+
+
+    }
+ 
+    .our-service{
+        gap: 2rem;
+        padding: 0rem 3rem;
+       
+        & .box{
+           min-height: auto;
+           padding: 2rem;
+          
+           & .box-icon{
+            width: 40%;
+           }
+
+           & h1{
+            font-size: 1.50rem;
+           }
+
+           
+        }
+    }
+
+    /* work-image start here */
+     .work-image{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        & .image{
+              margin: 0 auto;
+        }
+        
+     }
+
+
+     /* team member section start here */
+     .team-member{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        & .member{
+            text-align: center;
+            max-width: 100%;
+            min-height: auto;
+             & img{
+                width: 60%;
+                height: auto;
+                margin: 0 auto;
+                display: block ;
+             }
+           
+        }
+     }
+    
+
+     /* customer-section start here */
+     .exprience{
+        text-align: center;
+        & h1{
+            font-size: 1.50rem;
+        }
+
+        & div{
+           max-width: 80%;
+           min-height: auto;
+           margin-left: 1.5rem;
+        }
+     }
+
+     .customer-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+        gap:2rem;
+
+        & .customer{
+            max-width: 80%;
+            min-height: auto;
+            margin: 0 auto;
+            
+        }
+     }
+
+     /*letest-news section start here  */
+     .letest-news{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 3rem;
+        gap:2rem;
+     }
+
+     /* footer-section start here */
+     .footer-section{
+        padding: 0;
+        & .footer{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap: 1rem;
+            
+            & .creative{
+                margin: 1rem;
+                & .social{
+                    font-size: 1rem;
+                }
+                
+            }
+
+            & .pro{
+                font-size: 0.80rem;
+                margin-left: 1rem;
+                 
+            }
+
+        }
+     }
+
+    } 
