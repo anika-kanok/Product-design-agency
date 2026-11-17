@@ -362,6 +362,7 @@
     display: grid;
     grid-template-columns: repeat(5 , 1fr);
     gap:3rem;
+    align-items: center;
     & .creative{
         line-height: 1.40;
         & img{
@@ -376,14 +377,22 @@
 
 
         & .social{
-            display: flex;
+               display: flex;
                gap: 1rem;
                margin-top: 1rem;
-            & div{
-
+               border-radius: 2rem;
+               & div{
+                width: 100%;
+                max-width: 48px;
+                min-height: 48px;
+                background-color: #fff;
+                display: flex;
+               justify-content: center;
+               align-items: center;
+               border-radius: 3.125rem;
             }
             & div i{
-
+                font-size: 1.50rem;
             }
 
         }
@@ -393,7 +402,7 @@
         line-height: 2;
         align-self: flex-start;
         & h1{
-
+            font-style: 1.25rem;
         }
 
         & p{
