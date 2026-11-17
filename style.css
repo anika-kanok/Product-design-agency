@@ -348,3 +348,57 @@
 
 }
 /* letest-section end here */
+
+
+/* footer-section start here */
+.footer-section{
+    max-width: 1920px;
+    width: 100%;
+    min-height: 441px;
+    background-color: #5956e82d;
+    padding: 4rem 0rem;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    gap:3rem;
+    & .creative{
+        line-height: 1.40;
+        & img{
+            width: 100%;
+            max-width: 115px;
+            height: auto;
+        }
+
+        & p{
+          color: gray;
+        }
+
+
+        & .social{
+            display: flex;
+               gap: 1rem;
+               margin-top: 1rem;
+            & div{
+
+            }
+            & div i{
+
+            }
+
+        }
+
+    }
+    & .pro{
+        line-height: 2;
+        align-self: flex-start;
+        & h1{
+
+        }
+
+        & p{
+            color:gray; 
+        }
+    }
+}
+/* footer-section end here */
